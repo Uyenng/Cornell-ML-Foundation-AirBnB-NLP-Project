@@ -8,6 +8,20 @@ Due to constraints with the dataset we could use and limitations in NLP methods 
 
 **Note**: The original data file was too large to upload, so I split it into multiple smaller CSV files. The original file had 56,511 rows, and each sample file contains 2,500 lines. You don't need to download all of them, but if you choose to do so, you can merge the files to reconstruct the original data.
 
+To load and merge the files, you can use the following code:
+
+```
+# List of split data files (update the filenames based on your actual files)
+data_files = ['airbnbListingsData_part1.csv', 'airbnbListingsData_part2.csv', 'airbnbListingsData_part3.csv']  # Add all your split file names here
+
+# Load and concatenate the data
+df = pd.concat([pd.read_csv(file) for file in data_files], ignore_index=True)
+
+# Now 'df' contains the entire dataset
+```
+
+If you're using just one sample data file, make  sure to rename the downloaded file to match the one I currently have in `pd.read_csv()`.
+
 ## Concepts
 
 ### Word Embeddings
