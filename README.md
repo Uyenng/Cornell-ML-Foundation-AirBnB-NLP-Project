@@ -8,7 +8,7 @@ Due to constraints with the dataset we could use and limitations in NLP methods 
 
 **Note**: The original data file was too large to upload, so I split it into multiple smaller CSV files. The original file had 56,511 rows, and each sample file contains 2,500 lines. You don't need to download all of them, but if you choose to do so, you can merge the files to reconstruct the original data.
 
-To load and merge the files, you can use the following code:
+### Load and merge data
 
 ```
 # List of split data files (update the filenames based on your actual files)
