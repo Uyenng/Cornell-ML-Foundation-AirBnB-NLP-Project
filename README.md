@@ -6,7 +6,7 @@ Due to constraints with the dataset we could use and limitations in NLP methods 
 
 **Future Goals**: Rewrite the code and descriptions to enhance clarity and cohesion with the problem being addressed. Additionally, identify methods to evaluate NLP models.
 
-**Note**: The data file was too large to be uploaded.
+**Note**: The original data file was too large to upload, so I split it into multiple smaller CSV files. The original file had 56,511 rows, and each sample file contains 2,500 lines. You don't need to download all of them, but if you choose to do so, you can merge the files to reconstruct the original data.
 
 ## Concepts
 
